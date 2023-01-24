@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Chango&family=Roboto+Condensed:wght@300&display=swap');
 root {
-    --primary-color: #a9221b   ;
-    --secondary-color: #b8b8bf ;
-    --accent1-color: #0a0706;
-    --accent2-color: #867a76;
+    --primary-color: #4e3b38   ;
+    --secondary-color: #96c0b7 ;
+    --accent1-color: #7d736d;
+    --accent2-color: #8fa7a0;
   
     --heading-font: "Chango";
     font-family: "Roboto Condensed", Helvetica, sans-serif;
 }
-
+/*https://coolors.co/4e3b38-7d736d-878e88-8fa7a0-96c0b7*/
 /**********************HEADER**********************/
 header{
-    background-color:#a9221b;
-    color: #0a0706;
+    background-color:#96c0b7;
+    color: #4e3b38;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 250px 100px;
@@ -36,7 +36,7 @@ nav a:hover {
 nav a{
     font-weight: bolder;
     text-align: center;
-    color: #0a0706;
+    color: #4e3b38;
     text-decoration: none;
     padding: 30px;
 }
@@ -104,7 +104,7 @@ p{
     font-family: "Roboto Condensed", Helvetica, sans-serif;
 }
 a{
-    color: #0a0706;
+    color: #4e3b38;
     text-decoration: none;
     padding: 45px;
 }
@@ -113,8 +113,8 @@ a:hover{
 }
 /*****************************FOOTER*****************************/
 footer{
-    background-color: #a9221b;
-    color: #0a0706;
+    background-color: #96c0b7;
+    color: #4e3b38;
     padding: 25px 50px;
     margin-top: 30px;
     display: flex;
@@ -122,15 +122,15 @@ footer{
     align-items: center;
 }
 footer h3{
-    color: #0a0706;
+    color: #4e3b38;
 }
 footer a{
-    color: #0a0706;
+    color: #4e3b38;
     text-decoration: none;
 }
 footer a:hover{
-    background-color: #a9221b;
-    color: #0a0706;
+    background-color: #96c0b7;
+    color: #4e3b38;
 }
 footer p {
     font-size: 1.2em;
@@ -141,7 +141,7 @@ footer .social img{
 footer .social img:hover{
     padding-top: 15px;
     background-color: #867a76;
-    color: #0a0706;
+    color: #4e3b38;
 }   
 footer p a:hover {
     text-decoration: underline;
